@@ -1,7 +1,7 @@
 <table width="100%">
 <tr>
-<td align="left"><img src="DOCUMENTATION/01-getting-started/images/unav%20logo.png" width="250"></td>
-<td align="right"><img src="DOCUMENTATION/01-getting-started/images/data%20logo.png" width="200"></td>
+<td align="left"><img src="assets/logos/unav-logo.png" width="250"></td>
+<td align="right"><img src="assets/logos/data-logo.png" width="200"></td>
 </tr>
 </table>
 
@@ -26,7 +26,7 @@ This club exists to help students learn programming and data analytics together.
 
 ## Reporting
 
-If you experience or witness behavior that violates this code, report it to the current president or vice president (see [team-roles.md](ADMIN_ROLE/DOCUMENTATION/01-club-info/team-roles.md) for who's currently in that role). Reports will be handled discreetly and taken seriously.
+If you experience or witness behavior that violates this code, report it to the current president or vice president (see [team-roles.md](https://github.com/DataDriversUNAV/ADMIN/blob/main/DOCUMENTATION/01-club-info/NON-Merged-documentation/team-roles.md) in the ADMIN repo for who's currently in that role). Reports will be handled discreetly and taken seriously.
 
 ## Enforcement
 

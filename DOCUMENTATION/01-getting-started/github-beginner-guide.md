@@ -1,7 +1,7 @@
 <table width="100%">
 <tr>
-<td align="left"><img src="../../../DOCUMENTATION/01-getting-started/images/unav%20logo.png" width="250"></td>
-<td align="right"><img src="../../../DOCUMENTATION/01-getting-started/images/data%20logo.png" width="200"></td>
+<td align="left"><img src="../../assets/logos/unav-logo.png" width="250"></td>
+<td align="right"><img src="../../assets/logos/data-logo.png" width="200"></td>
 </tr>
 </table>
 
@@ -15,7 +15,7 @@ Make sure you've done [software-installation.md](software-installation.md): Git 
 
 ## 1. Key concepts (30-second version)
 
-- **Repository (repo):** a project folder tracked by Git — this whole club knowledge base is one repo.
+- **Repository (repo):** a project folder tracked by Git — this STUDENTS repo is one example (the club also has a separate ADMIN repo for officers, under the same [DataDriversUNAV](https://github.com/DataDriversUNAV) organization).
 - **Clone:** download a copy of the repo to your computer.
 - **Branch:** an independent line of work, so you don't edit `main` directly.
 - **Commit:** a saved snapshot of your changes, with a message describing what changed.
@@ -25,11 +25,11 @@ Make sure you've done [software-installation.md](software-installation.md): Git 
 ## 2. Clone the repo
 
 1. Go to the repo page on GitHub.
-2. Click the green **Code** button → copy the HTTPS URL (looks like `https://github.com/leokonma/DD_CLASS.git`).
+2. Click the green **Code** button → copy the HTTPS URL (looks like `https://github.com/DataDriversUNAV/STUDENTS.git`).
 3. Open a terminal (or VS Code's built-in terminal) and run:
    ```
-   git clone https://github.com/leokonma/DD_CLASS.git
-   cd DD_CLASS
+   git clone https://github.com/DataDriversUNAV/STUDENTS.git
+   cd STUDENTS
    ```
 4. Open the folder in VS Code: `code .`
 

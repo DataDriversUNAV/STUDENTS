@@ -1,3 +1,10 @@
+<table width="100%">
+<tr>
+<td align="left"><img src="../../assets/logos/unav-logo.png" width="250"></td>
+<td align="right"><img src="../../assets/logos/data-logo.png" width="200"></td>
+</tr>
+</table>
+
 
 #
 # Upcoming Sessions — Academic Year 2026-2027

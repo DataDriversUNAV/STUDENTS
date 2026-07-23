@@ -1,7 +1,7 @@
 <table width="100%">
 <tr>
-<td align="left"><img src="../../../DOCUMENTATION/01-getting-started/images/unav%20logo.png" width="250"></td>
-<td align="right"><img src="../../../DOCUMENTATION/01-getting-started/images/data%20logo.png" width="200"></td>
+<td align="left"><img src="../../assets/logos/unav-logo.png" width="250"></td>
+<td align="right"><img src="../../assets/logos/data-logo.png" width="200"></td>
 </tr>
 </table>
 
