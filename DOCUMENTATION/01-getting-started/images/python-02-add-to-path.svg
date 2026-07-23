@@ -1,0 +1,25 @@
+<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="460" fill="#F4F6F8"/>
+  <rect x="160" y="20" width="440" height="380" rx="10" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+  <rect x="160" y="20" width="440" height="36" rx="10" fill="#E8EAED"/>
+  <rect x="160" y="44" width="440" height="12" fill="#E8EAED"/>
+  <text x="380" y="43" font-size="13" fill="#5F6368" text-anchor="middle">Python 3.14.6 Setup</text>
+
+  <text x="380" y="100" font-size="17" fill="#111827" text-anchor="middle" font-weight="bold">Install Python 3.14.6 (64-bit)</text>
+
+  <rect x="200" y="200" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#3776AB" stroke-width="2"/>
+  <text x="230" y="216" font-size="15" fill="#111827" font-weight="bold">Add python.exe to PATH</text>
+
+  <rect x="192" y="192" width="360" height="36" rx="10" fill="none" stroke="#FF7A00" stroke-width="4" stroke-dasharray="6 4"/>
+  <circle cx="185" cy="192" r="18" fill="#FF7A00"/>
+  <text x="185" y="198" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">!</text>
+
+  <rect x="200" y="245" width="300" height="42" rx="6" fill="#3776AB"/>
+  <text x="350" y="271" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Install Now</text>
+
+  <rect x="200" y="300" width="240" height="30" rx="4" fill="#F7F8FA" stroke="#E5E7EB"/>
+  <text x="210" y="320" font-size="12" fill="#8A94A6">Customize installation</text>
+
+  <rect x="160" y="410" width="440" height="40" rx="6" fill="#0B1F3A"/>
+  <text x="380" y="435" font-size="15" fill="#FFFFFF" text-anchor="middle">Step 2 — CHECK "Add python.exe to PATH" before clicking Install Now (easy to miss!)</text>
+</svg>

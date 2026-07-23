@@ -1,0 +1,38 @@
+<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="460" fill="#F4F6F8"/>
+  <rect x="20" y="20" width="720" height="380" rx="10" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+  <rect x="20" y="20" width="720" height="36" rx="10" fill="#E8EAED"/>
+  <rect x="20" y="44" width="720" height="12" fill="#E8EAED"/>
+  <circle cx="40" cy="38" r="6" fill="#FF5F57"/>
+  <circle cx="60" cy="38" r="6" fill="#FFBD2E"/>
+  <circle cx="80" cy="38" r="6" fill="#28C840"/>
+  <rect x="110" y="27" width="520" height="22" rx="11" fill="#FFFFFF" stroke="#D0D5DD"/>
+  <text x="122" y="43" font-size="13" fill="#5F6368">code.visualstudio.com/download</text>
+
+  <!-- page content -->
+  <rect x="60" y="90" width="46" height="46" rx="8" fill="#1565C0"/>
+  <path d="M70 108 L100 96 L100 132 L70 120 Z" fill="#29C5E6"/>
+  <text x="118" y="118" font-size="26" fill="#111827" font-weight="bold">Visual Studio Code</text>
+  <text x="60" y="150" font-size="14" fill="#5F6368">Free. Built on open source. Runs everywhere.</text>
+
+  <!-- download button (highlighted) -->
+  <rect x="60" y="190" width="260" height="52" rx="8" fill="#1565C0"/>
+  <text x="190" y="223" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Download for Windows</text>
+
+  <!-- other OS buttons, muted -->
+  <rect x="340" y="190" width="140" height="52" rx="8" fill="#EDEFF2" stroke="#D0D5DD"/>
+  <text x="410" y="221" font-size="14" fill="#8A94A6" text-anchor="middle">macOS</text>
+  <rect x="500" y="190" width="140" height="52" rx="8" fill="#EDEFF2" stroke="#D0D5DD"/>
+  <text x="570" y="221" font-size="14" fill="#8A94A6" text-anchor="middle">Linux</text>
+
+  <!-- highlight ring + number badge -->
+  <rect x="52" y="182" width="276" height="68" rx="12" fill="none" stroke="#FF7A00" stroke-width="4" stroke-dasharray="6 4"/>
+  <circle cx="45" cy="182" r="18" fill="#FF7A00"/>
+  <text x="45" y="188" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+
+  <text x="60" y="300" font-size="14" fill="#5F6368">Your OS is detected automatically — pick the</text>
+  <text x="60" y="320" font-size="14" fill="#5F6368">matching button if it shows the wrong one.</text>
+
+  <rect x="20" y="410" width="720" height="40" rx="6" fill="#0B1F3A"/>
+  <text x="380" y="435" font-size="16" fill="#FFFFFF" text-anchor="middle">Step 1 — Go to code.visualstudio.com/download and click Download</text>
+</svg>

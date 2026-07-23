@@ -1,0 +1,33 @@
+<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="460" fill="#F4F6F8"/>
+  <rect x="180" y="20" width="400" height="380" rx="10" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+  <rect x="180" y="20" width="400" height="36" rx="10" fill="#E8EAED"/>
+  <rect x="180" y="44" width="400" height="12" fill="#E8EAED"/>
+  <text x="380" y="43" font-size="13" fill="#5F6368" text-anchor="middle">Setup - Visual Studio Code</text>
+
+  <rect x="210" y="80" width="36" height="36" rx="6" fill="#1565C0"/>
+  <path d="M218 96 L240 87 L240 111 L218 102 Z" fill="#29C5E6"/>
+  <text x="256" y="103" font-size="16" fill="#111827" font-weight="bold">License Agreement</text>
+
+  <rect x="210" y="130" width="340" height="140" rx="4" fill="#F7F8FA" stroke="#E5E7EB"/>
+  <text x="222" y="150" font-size="11" fill="#8A94A6">MICROSOFT SOFTWARE LICENSE TERMS</text>
+  <line x1="222" y1="165" x2="530" y2="165" stroke="#E5E7EB"/>
+  <line x1="222" y1="180" x2="530" y2="180" stroke="#E5E7EB"/>
+  <line x1="222" y1="195" x2="490" y2="195" stroke="#E5E7EB"/>
+  <line x1="222" y1="210" x2="520" y2="210" stroke="#E5E7EB"/>
+  <line x1="222" y1="225" x2="470" y2="225" stroke="#E5E7EB"/>
+
+  <rect x="210" y="285" width="18" height="18" rx="3" fill="#1565C0"/>
+  <path d="M213 294 L217 298 L225 289" stroke="white" stroke-width="2" fill="none"/>
+  <text x="236" y="299" font-size="14" fill="#111827">I accept the agreement</text>
+
+  <!-- Next button highlighted -->
+  <rect x="430" y="335" width="120" height="40" rx="6" fill="#1565C0"/>
+  <text x="490" y="360" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Next &gt;</text>
+  <rect x="422" y="327" width="136" height="56" rx="10" fill="none" stroke="#FF7A00" stroke-width="4" stroke-dasharray="6 4"/>
+  <circle cx="415" cy="327" r="18" fill="#FF7A00"/>
+  <text x="415" y="333" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+
+  <rect x="20" y="410" width="720" height="40" rx="6" fill="#0B1F3A"/>
+  <text x="380" y="435" font-size="16" fill="#FFFFFF" text-anchor="middle">Step 2 — Run the installer, accept the agreement, and click Next through each screen (defaults are fine)</text>
+</svg>
