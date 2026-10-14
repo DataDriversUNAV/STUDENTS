@@ -47,10 +47,11 @@ Never commit directly to `main`. For a project submission:
 ```
 git checkout -b project-my-cool-analysis
 ```
+Working on a project with teammates? Your team shares **one** branch. Follow [group-project-collaboration.md](group-project-collaboration.md) instead of creating your own.
 
 ## 5. Make your changes
 
-- Add your project folder under `PROJECTS/your-project-name/` (see [PROJECTS/README.md](../../PROJECTS/README.md)).
+- Add your project folder under `PROJECTS/foundations/your-project-name/` or `PROJECTS/advanced/your-project-name/` (see [PROJECTS/README.md](../../PROJECTS/README.md)).
 - Save your files as usual in VS Code.
 
 ## 6. Check what changed
@@ -123,4 +124,4 @@ git pull                   # get latest changes from main
 ```
 
 ---
-*Last updated: 2026-07-18 · Updated by: Leo · Source: [docs.github.com](https://docs.github.com)*
+*Last updated: 2026-10-14 · Updated by: Leo · Source: [docs.github.com](https://docs.github.com)*

@@ -9,17 +9,21 @@
 
 Everything goes through a pull request (PR) — nobody pushes directly to `main`.
 
-If you've never used Git or GitHub, read [DOCUMENTATION/01-getting-started/github-beginner-guide.md](DOCUMENTATION/01-getting-started/github-beginner-guide.md) first — it covers every step below in more detail.
+If you've never used Git or GitHub, read [DOCUMENTATION/01-getting-started/github-beginner-guide.md](DOCUMENTATION/01-getting-started/github-beginner-guide.md) first. For projects, follow the step-by-step [group-project-collaboration.md](DOCUMENTATION/01-getting-started/group-project-collaboration.md).
 
-## Submitting a project
+## Projects: one branch per project
 
-1. Create a new branch (or fork, if you don't have write access).
-2. Create a new folder inside `PROJECTS/` named after your project, e.g. `PROJECTS/sales-forecast-juan-and-maria/`.
-3. Copy `PROJECTS/project-submission-template.md` into your folder as `README.md` and fill it in.
-4. Add your code, notebooks, and data (or a link to the data if it's too large for GitHub).
-5. Commit your changes with a clear message, e.g. `git commit -m "Add sales forecast project"`.
-6. Push your branch and open a pull request against `main`.
-7. Tag a science collaborator for review. They'll leave comments if changes are needed, then merge once approved.
+Every project, whether a team or solo, lives on **its own branch** for the whole year and is merged into `main` at the end.
+
+1. **Register your team:** open an issue with the **New project team** template.
+2. **Team lead creates the branch** `project-<project-name>` and the folder `PROJECTS/<foundations|advanced>/<project-name>/`, with the template copied in as `README.md`.
+3. **Teammates join the branch** with `git fetch` and `git checkout project-<project-name>`.
+4. **Open a draft pull request** against `main` in the first weeks, so mentors can follow and comment.
+5. **Work loop, every session:** `git pull` → work → `git add` / `git commit` → `git pull` → `git push`.
+6. **Before each sharing session,** push your materials to `sharing/` inside your project folder.
+7. **When finished,** mark the PR **Ready for review**, add a science collaborator as reviewer, and they merge once approved.
+
+Rules: only edit your own project folder, one person per notebook, and push at the end of every session.
 
 ## Editing documentation
 
@@ -31,7 +35,7 @@ If you've never used Git or GitHub, read [DOCUMENTATION/01-getting-started/githu
 
 ## Branch naming
 
-Use short, descriptive branch names: `project-<name>`, `docs-<topic>`, `fix-<thing>`.
+Use short, descriptive branch names: `project-<project-name>` (same as your project folder), `docs-<topic>`, `fix-<thing>`.
 
 ## Questions
 

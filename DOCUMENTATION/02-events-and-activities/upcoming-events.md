@@ -6,66 +6,60 @@
 </table>
 
 
-#
 # Upcoming Sessions — Academic Year 2026-2027
 
-This is the full calendar of what Data Drivers will cover this year, session by session. Sessions run **Tuesdays & Thursdays, 19:00–20:30**. Bring your laptop with [Python, Git, and VS Code installed](../01-getting-started/software-installation.md).
+This is the full calendar for the year, week by week. We meet **once a week** (day and time to be confirmed: Wednesday 19:00 or Thursday 15:00–18:45). Bring your laptop with [Python, Git, and VS Code installed](../01-getting-started/software-installation.md).
 
-Each week follows the same rhythm:
+The club has two groups. Read [groups-and-attendance.md](groups-and-attendance.md) to see which one you're in and how attendance works.
 
-- **Tuesday — Build it together:** we work through the week's topic as a group, live-coding. A different member presents each week.
-- **Thursday — DataCamp + practice:** first 30 minutes individually on the DataCamp lesson, then an hour applying it to a real mini-project.
-- **Hackathon weeks (once a month):** no new topic — small teams tackle a short challenge using everything learned that month.
+- **Foundations** (non-programmers) follow DataCamp's [Data Analyst in Python](https://app.datacamp.com/learn/career-tracks/data-analyst-with-python) career track. That's 9 courses: you do one per class week at home, and in class we explain it and solve the exercises.
+- **Advanced** members run an investigation project, and they're the ones who explain the Foundations material in class.
 
-We're following DataCamp's [Associate Data Scientist in Python](https://www.datacamp.com/tracks/associate-data-scientist-in-python) track. If you want to go further than what we cover in club sessions, a few extra courses are listed at the bottom for self-study.
+The weeks run in a 3-week cycle:
+
+- **Class weeks (2 of every 3):** Advanced mentors explain the week's course, then everyone works. Foundations do exercises and their project, and Advanced work on their investigations.
+- **Sharing weeks (every 3rd week):** there's no regular class. Both groups meet, Advanced present their investigation materials, and Foundations show their progress.
+
+Week dates are Monday–Friday. The session is on whichever day we confirm.
 
 ## Semester 1
 
-| Date | Session |
-|---|---|
-| Tue Oct 6 / Thu Oct 8 | Introduction to Python |
-| Tue Oct 13 / Thu Oct 15 | Intermediate Python |
-| Tue Oct 20 / Thu Oct 22 | pandas Fundamentals (data manipulation + joining data) |
-| Tue Oct 27 / Thu Oct 29 | 🏆 Hackathon #1 — Python + pandas |
-| Tue Nov 3 / Thu Nov 5 | Introduction to Statistics in Python |
-| Tue Nov 10 / Thu Nov 12 | Data Visualization with Matplotlib |
-| Tue Nov 17 / Thu Nov 19 | Functions in Python |
-| Tue Nov 24 / Thu Nov 26 | 🏆 Hackathon #2 — Semester 1 capstone + showcase |
+| # | Week | Type | Foundations | Advanced |
+|---|---|---|---|---|
+| 1 | Oct 12–16 | Class | Introduction to Python | Kickoff: placement, mentor rota, choose investigation topic |
+| 2 | Oct 19–23 | Class | Intermediate Python | Research question + sources |
+| 3 | Oct 26–30 | 🔎 Sharing #1 | First notebook + DataCamp progress | Investigation proposal |
+| 4 | Nov 2–6 | Class | Data Manipulation with pandas | Data collection |
+| 5 | Nov 9–13 | Class | Joining Data with pandas | Data cleaning |
+| 6 | Nov 16–20 | 🔎 Sharing #2 | pandas mini-analysis | Dataset + first exploration |
+| 7 | Nov 23–27 | Class | Review + project proposal | Semester 1 progress report |
 
 No sessions Dec 1 – Jan 8 (exams + Christmas break).
 
 ## Semester 2
 
-| Date | Session |
-|---|---|
-| Tue Jan 12 / Thu Jan 14 | Python Toolbox (iterators & comprehensions) |
-| Tue Jan 19 / Thu Jan 21 | Exploratory Data Analysis in Python |
-| Tue Jan 26 / Thu Jan 28 | 🏆 Hackathon #3 |
-| Tue Feb 2 / Thu Feb 4 | Cleaning Data in Python |
-| Tue Feb 9 / Thu Feb 11 | Introduction to Importing Data in Python |
-| Tue Feb 16 / Thu Feb 18 | Introduction to Regression with statsmodels |
-| Tue Feb 23 / Thu Feb 25 | 🏆 Hackathon #4 |
-| Tue Mar 2 / Thu Mar 4 | Statistical Inference (sampling + hypothesis testing) |
-| Tue Mar 9 / Thu Mar 11 | Supervised Learning with scikit-learn |
-| Tue Mar 16 / Thu Mar 18 | 🏆 Hackathon #5 |
+| # | Week | Type | Foundations | Advanced |
+|---|---|---|---|---|
+| 8 | Jan 11–15 | Class | Introduction to Statistics in Python | Analysis / modelling |
+| 9 | Jan 18–22 | Class | Introduction to Data Visualization with Seaborn | Analysis / modelling |
+| 10 | Jan 25–29 | 🔎 Sharing #3 | Project dataset + question | Preliminary results |
+| 11 | Feb 1–5 | Class | Exploratory Data Analysis in Python | Iterate on analysis |
+| 12 | Feb 8–12 | Class | Sampling in Python | Validation / robustness |
+| 13 | Feb 15–19 | 🔎 Sharing #4 | Project EDA | Results + limitations |
+| 14 | Feb 22–26 | Class | Hypothesis Testing in Python — track complete 🎓 | Write-up draft |
+| 15 | Mar 1–5 | Class | Project work | Write-up + visuals |
+| 16 | Mar 8–12 | 🔎 Sharing #5 | Project draft | Draft report — peer review |
+| 17 | Mar 15–19 | Class | Project work | Revisions |
 
 No sessions Mar 22 – Apr 2 (Holy Week break).
 
-| Date | Session |
-|---|---|
-| Tue Apr 6 / Thu Apr 8 | Unsupervised Learning in Python |
-| Tue Apr 13 / Thu Apr 15 | Machine Learning with Tree-Based Models |
-| Tue Apr 20 / Thu Apr 22 | 🏆 Hackathon #6 — Final capstone + track completion celebration |
+| # | Week | Type | Foundations | Advanced |
+|---|---|---|---|---|
+| 18 | Apr 5–9 | Class | Project polish | Final materials |
+| 19 | Apr 12–16 | 🔎 Sharing #6 | Showcase rehearsal | Showcase rehearsal |
+| 20 | Apr 19–23 | 🏆 Final showcase | All projects presented + track completion | All investigations presented |
 
-## Want to go deeper?
-
-These courses are part of the full DataCamp track but aren't covered in club sessions — worth doing on your own if you're aiming for the full certification:
-
-- Introduction to Data Visualization with Seaborn
-- Working with Categorical Data in Python
-- Data Communication Concepts
-- Working with Dates and Times in Python
-- Experimental Design in Python
+No sessions during exams (Apr 26 – May 18) or re-sits (Jun 7–28).
 
 ---
-*Last updated: 2026-07-18 · Updated by: Leo*
+*Last updated: 2026-10-05 · Updated by: Leo*
