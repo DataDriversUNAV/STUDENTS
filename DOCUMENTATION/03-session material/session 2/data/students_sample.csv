@@ -1,0 +1,13 @@
+student_id,name,group,hours_studied,exam_score,attended_sessions
+1,Ana,Foundations,4.5,6.8,5
+2,Bruno,Advanced,7.0,8.9,6
+3,Carla,Foundations,2.0,5.1,3
+4,Diego,Advanced,5.5,7.4,6
+5,Elena,Foundations,6.0,8.2,6
+6,Fernando,Advanced,3.0,5.9,4
+7,Gabriela,Foundations,8.0,9.3,6
+8,Hugo,Advanced,1.5,4.2,2
+9,Irene,Foundations,5.0,7.0,5
+10,Javier,Advanced,6.5,8.5,5
+11,Lucia,Foundations,3.5,6.1,4
+12,Marcos,Advanced,4.0,6.6,5
