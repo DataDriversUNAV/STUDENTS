@@ -9,7 +9,7 @@
 
 ## Group
 
-*(Foundations / Advanced)*
+*(Your group number, e.g. Grupo 3)*
 
 ## Author(s)
 

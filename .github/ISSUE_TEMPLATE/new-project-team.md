@@ -1,25 +1,24 @@
 ---
 name: New project team
-about: Register your project team (or solo project) and its branch
-title: "Team: <project-name>"
+about: Register your group's members and project topic
+title: "Grupo <number>: <project-name>"
 labels: team
 ---
 
-**Project name** (lowercase-with-hyphens, also your folder and branch name):
-`project-name-here`
+**Group number** (1–10):
 
-**Group:** Foundations / Advanced
+**Team members** (GitHub usernames):
+- @
+- @
+- @
 
-**Team members** (GitHub usernames, max 3):
-- @
-- @
-- @
+**Project name:**
 
 **Topic / research question** (1–2 sentences):
 
 
-**Branch:** `project-<project-name>`
-**Folder:** `PROJECTS/<foundations|advanced>/<project-name>/`
+**Branch:** `grupo-<number>`
+**Folder:** `PROJECTS/Grupo_<number>/`
 
 ---
 Next step: the team lead follows section 4 of

@@ -43,15 +43,17 @@ Use the same email as your GitHub account.
 
 ## 4. Create a branch for your work
 
-Never commit directly to `main`. For a project submission:
-```
-git checkout -b project-my-cool-analysis
-```
-Working on a project with teammates? Your team shares **one** branch. Follow [group-project-collaboration.md](group-project-collaboration.md) instead of creating your own.
+Never commit directly to `main`.
+
+- **Project work** goes on your group's shared branch, `grupo-<number>`. Follow [group-project-collaboration.md](group-project-collaboration.md) to create or join it. Don't create your own.
+- **Documentation fixes** go on your own branch, which is the example used below:
+  ```
+  git checkout -b docs-my-topic
+  ```
 
 ## 5. Make your changes
 
-- Add your project folder under `PROJECTS/foundations/your-project-name/` or `PROJECTS/advanced/your-project-name/` (see [PROJECTS/README.md](../../PROJECTS/README.md)).
+- Project work goes in your group's folder, `PROJECTS/Grupo_<number>/` (see [PROJECTS/README.md](../../PROJECTS/README.md)).
 - Save your files as usual in VS Code.
 
 ## 6. Check what changed
@@ -72,7 +74,7 @@ git commit -m "Add sales forecast project"
 ## 8. Push your branch to GitHub
 
 ```
-git push -u origin project-my-cool-analysis
+git push -u origin docs-my-topic
 ```
 First push of a new branch needs `-u origin <branch-name>`; after that, `git push` alone works.
 
@@ -109,6 +111,7 @@ git pull
 | `fatal: not a git repository` | You're not inside the cloned folder | `cd` into the repo folder first |
 | `Permission denied (publickey)` | GitHub authentication issue | Use HTTPS clone URL, or set up SSH keys (ask a science collaborator) |
 | `Updates were rejected` on push | Your branch is behind | Run `git pull` first, then push again |
+| `Your local changes ... would be overwritten` on pull | Git stopped to protect your work, and nothing was lost | See [Will `git pull` delete my work?](group-project-collaboration.md#will-git-pull-delete-my-work) |
 | Merge conflict | Two people edited the same lines | Ask a science collaborator to help resolve — this is normal, not a disaster |
 
 ## Cheat sheet
@@ -120,8 +123,8 @@ git status                # see what changed
 git add .                  # stage all changes
 git commit -m "message"    # save a snapshot
 git push -u origin <name>  # upload branch (first time)
-git pull                   # get latest changes from main
+git pull                   # get latest changes for the branch you're on
 ```
 
 ---
-*Last updated: 2026-10-14 · Updated by: Leo · Source: [docs.github.com](https://docs.github.com)*
+*Last updated: 2026-11-09 · Updated by: Leo · Source: [docs.github.com](https://docs.github.com)*

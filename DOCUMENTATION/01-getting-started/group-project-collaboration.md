@@ -7,30 +7,30 @@
 
 # Working on a Group Project (Step by Step)
 
-This guide takes you from "I have a team" to "our project is merged" and assumes no prior knowledge. If you haven't installed Git, Python and VS Code yet, do [software-installation.md](software-installation.md) first. If words like *commit* or *push* are new to you, skim section 1 of [github-beginner-guide.md](github-beginner-guide.md).
+This guide takes you from "I have a group" to "our project is merged" and assumes no prior knowledge. If you haven't installed Git, Python and VS Code yet, do [software-installation.md](software-installation.md) first. If words like *commit* or *push* are new to you, skim section 1 of [github-beginner-guide.md](github-beginner-guide.md).
 
-Solo project (most Foundations members)? You still follow this guide. You're just a team of one, so skip the parts about teammates.
+The examples use **Group 3**. Replace the 3 with your own group number everywhere.
 
 ---
 
-## 1. How we work: one branch per project
+## 1. How we work: one branch per group
 
 ```
-main  ────────────────────────────────────────────────●  (merged at the final showcase)
-        \                                            /
-project-sales-forecast  ●──●──●──●──●──●──●──●──●──●
-                        Ana  Juan Ana  María ...  (everyone on the team commits here)
+main  ───────────────────────────────────●  (merged at the final showcase)
+        \                               /
+grupo-3  ●──●──●──●──●──●──●──●──●──●──●
+         Ana  Juan Ana  María ...  (everyone in the group commits here)
 ```
 
 - **`main`** is the official version of the repo. Nobody works on it directly.
-- **Each project gets its own branch**, and the whole team works on that one branch.
+- **Each group has its own branch**, `grupo-3`, and the whole group works on that one branch.
+- **Each group has its own folder**, `PROJECTS/Grupo_3/`. Your group only edits that folder, so you never break another group's work.
 - **Push at the end of every session.** The branch on GitHub is your backup and how mentors see your work.
 - **A draft pull request (PR)** is opened in the first weeks so mentors can comment along the way. It's merged into `main` when the project is finished.
-- **Your team only edits its own folder** (`PROJECTS/advanced/your-project/` or `PROJECTS/foundations/your-project/`). That way you never break another team's work.
 
 ### The rules in one box
 
-> 1. **Pull before you start.** 2. **Push when you finish.** 3. **One person per file** (especially notebooks). 4. **Only touch your project folder.**
+> 1. **Pull before you start.** 2. **Push when you finish.** 3. **One person per file** (especially notebooks). 4. **Only touch your group's folder.**
 
 ---
 
@@ -43,24 +43,30 @@ project-sales-forecast  ●──●──●──●──●──●──�
    ```
    git config --global user.name "Your Name"
    git config --global user.email "the-email-of-your-github-account@example.com"
+   git config --global pull.rebase false
    ```
+   The last line tells `git pull` how to combine your commits with your teammates'. Without it, some computers stop with an error the first time both of you have new commits.
 
 ---
 
-## 3. Create your team
+## 3. Register your group
 
-Teams are up to **3 people** for Advanced investigations. Foundations projects are usually individual.
+Every member is in a numbered group, from 1 to 10. If you don't know your number, ask the coordinator. The number gives you your folder and your branch:
 
-1. Agree on a **project name**: short, lowercase, hyphens instead of spaces, e.g. `sales-forecast` or `netflix-eda-ana`. This name becomes both your **folder** and your **branch**.
-2. One person, the **team lead**, registers the team on GitHub:
+| Group | Folder | Branch |
+|---|---|---|
+| 3 | `PROJECTS/Grupo_3/` | `grupo-3` |
+
+1. Agree on who will be the **team lead** and on a **project name**.
+2. The team lead registers the group on GitHub:
    1. Go to the [STUDENTS repo](https://github.com/DataDriversUNAV/STUDENTS) → **Issues** tab → **New issue**.
-   2. Choose **New project team** and fill it in: team members' GitHub usernames, group, project name and topic.
+   2. Choose **New project team** and fill it in: group number, members' GitHub usernames, project name and topic.
    3. Click **Submit new issue**. The coordinator confirms it in a comment.
-3. The issue is your team's home page. Use its comments for questions to mentors.
+3. The issue is your group's home page. Use its comments for questions to mentors.
 
 ---
 
-## 4. Team lead: set up the branch and folder (once)
+## 4. Team lead: set up the branch (once)
 
 Only **one** person does this. Everyone else waits for step 5.
 
@@ -74,26 +80,20 @@ Only **one** person does this. Everyone else waits for step 5.
    git checkout main
    git pull
    ```
-3. **Create your team's branch** (`project-` + your project name):
+3. **Create your group's branch** (`grupo-` + your number):
    ```
-   git checkout -b project-sales-forecast
+   git checkout -b grupo-3
    ```
    `checkout -b` means "create a new branch and move onto it".
-4. **Create your project folder** inside your group's folder, and copy the template in as your README:
+4. **Open `PROJECTS/Grupo_3/README.md` in VS Code and fill in** at least the project name and authors. The folder and the README already exist. If you can't see them, repeat step 2.
+5. **Save a snapshot (commit) and upload it (push):**
    ```
-   mkdir PROJECTS/advanced/sales-forecast
-   cp PROJECTS/project-submission-template.md PROJECTS/advanced/sales-forecast/README.md
+   git add PROJECTS/Grupo_3
+   git commit -m "Set up Grupo 3 project"
+   git push -u origin grupo-3
    ```
-   (Foundations: use `PROJECTS/foundations/...` instead. On Windows PowerShell, use `copy` instead of `cp`.)
-5. **Open the README in VS Code and fill in** at least the project name, group and authors.
-6. **Save a snapshot (commit) and upload it (push):**
-   ```
-   git add PROJECTS/advanced/sales-forecast
-   git commit -m "Set up sales-forecast project"
-   git push -u origin project-sales-forecast
-   ```
-   `-u origin project-sales-forecast` is only needed the first time. It links your local branch to the one on GitHub.
-7. Tell your team: **"The branch is up!"**
+   `-u origin grupo-3` is only needed the first time. It links your local branch to the one on GitHub.
+6. Tell your group: **"The branch is up!"**
 
 ---
 
@@ -107,14 +107,14 @@ Only **one** person does this. Everyone else waits for step 5.
 2. **Get the list of branches from GitHub and switch to yours:**
    ```
    git fetch
-   git checkout project-sales-forecast
+   git checkout grupo-3
    ```
    Git sees that the branch exists on GitHub and creates your local copy automatically.
 3. **Check you're on the right branch:**
    ```
    git branch
    ```
-   The one with `*` next to it is where you are. It should be `project-sales-forecast`, **not** `main`.
+   The one with `*` next to it is where you are. It should be `grupo-3`, **not** `main`.
 
 ---
 
@@ -123,9 +123,9 @@ Only **one** person does this. Everyone else waits for step 5.
 A pull request (PR) is how your work will eventually enter `main`. Opening it early as a **draft** lets mentors follow and comment, and it can't be merged by accident.
 
 1. Go to the [STUDENTS repo](https://github.com/DataDriversUNAV/STUDENTS) → **Pull requests** → **New pull request**.
-2. Set **base: `main`** and **compare: `project-sales-forecast`**.
+2. Set **base: `main`** and **compare: `grupo-3`**.
 3. Click **Create pull request**, then use the small arrow on the green button and pick **Create draft pull request**.
-4. Title: `Project: sales-forecast (Advanced)`. In the description, write `Closes #12`, using your team issue's number. This links the PR to your team issue.
+4. Title: `Grupo 3: <your project name>`. In the description, write `Closes #12`, using your group issue's number. This links the PR to your group issue.
 
 ---
 
@@ -134,11 +134,11 @@ A pull request (PR) is how your work will eventually enter `main`. Opening it ea
 Do this **every time** you sit down to work, alone or in class.
 
 ```
-git checkout project-sales-forecast   # 1. be on your branch
+git checkout grupo-3   # 1. be on your branch
 git pull                              # 2. get your teammates' latest work
 #    ... work in VS Code, save your files ...
 git status                            # 3. see what you changed
-git add PROJECTS/advanced/sales-forecast
+git add PROJECTS/Grupo_3
 git commit -m "Clean the 2025 sales data"   # 4. snapshot with a clear message
 git pull                              # 5. grab anything pushed while you worked
 git push                              # 6. upload
@@ -156,6 +156,49 @@ The **Source Control** panel (the branch-shaped icon on the left, or `Ctrl+Shift
 | `git pull` / `git push` | The **↻ Sync Changes** button, or `…` menu → Pull / Push |
 | `git add` | **+** next to a file under *Changes* |
 | `git commit -m` | Type the message in the box at the top → **✓ Commit** |
+
+### Will `git pull` delete my work?
+
+**No.** `git pull` only brings in what others have pushed. If it would have to overwrite something of yours, it stops and leaves your files as they were. This is true right after cloning and at any later time. Save your files in VS Code first, because Git can only see what is saved to disk.
+
+| What you have on your computer | What `git pull` does | What you do |
+|---|---|---|
+| New files that aren't on GitHub | Leaves them alone | Nothing |
+| Uncommitted edits to files nobody else changed | Leaves them alone | Nothing |
+| Uncommitted edits to a file that also changed on GitHub | Stops: `Your local changes ... would be overwritten`. Your file isn't touched | Commit your work, then pull again |
+| A new, uncommitted file with the same name as one on GitHub | Stops: `untracked working tree files would be overwritten`. Your file isn't touched | Rename your file, then pull again |
+| Commits of yours, and teammates pushed commits too | Combines both | Nothing |
+| Commits of yours that changed the same lines as a teammate | Reports a merge conflict and keeps both versions | Follow section 9 |
+
+**What can really lose work** is something else:
+
+- Clicking **Discard Changes** in VS Code.
+- Running `git reset --hard`, `git clean`, `git restore <file>` or `git checkout -- <file>`.
+- Deleting the folder and cloning again before you've pushed.
+
+If Git shows you an error and you're not sure what to do, stop and ask a mentor. Don't try these commands to make the error go away.
+
+**Commit often and push at the end of every session.** Once your work is pushed, it's safe on GitHub even if your computer breaks.
+
+### Session notebooks: work on a copy
+
+Don't edit or run notebooks directly in `DOCUMENTATION/03-session material/`. Even running one changes the file, so `git pull` will stop if the club later updates it. Copy the notebook into your group's folder and work there.
+
+If `git pull` has already stopped because of a session file you changed, copy your version into your group's folder first. Then undo the change to the original and pull:
+
+```
+git restore "DOCUMENTATION/03-session material/session 2/importing_data.ipynb"
+git pull
+```
+
+### Getting new session materials on your branch
+
+`git pull` only updates the branch you're on, so new material added to `main` doesn't reach `grupo-3` by itself. To bring it in, commit your work first and then run:
+
+```
+git pull origin main
+git push
+```
 
 ---
 
@@ -190,15 +233,15 @@ Don't panic. It's normal, and nothing is lost.
    git commit -m "Resolve merge conflict in README"
    git push
    ```
-5. **Conflict in a notebook (`.ipynb`)?** Don't try to edit it by hand. Keep one version with `git checkout --theirs path/to/notebook.ipynb` (their version) or `--ours` (yours), then `git add`, `git commit`, `git push`, and copy over whatever cells you lost. Ask a mentor if you're unsure.
+5. **Conflict in a notebook (`.ipynb`)?** Don't try to edit it by hand. Keep one version with `git checkout --theirs path/to/notebook.ipynb` (their version) or `--ours` (yours), then `git add`, `git commit`, `git push`. The version you didn't keep is still in Git's history, so ask a mentor to help you bring back any cells you need.
 
 ---
 
 ## 10. Before each sharing session
 
-Every 3rd week (see [upcoming-events.md](../02-events-and-activities/upcoming-events.md)) your team presents. **Before the session:**
+Every 3rd week (see [upcoming-events.md](../02-events-and-activities/upcoming-events.md)) your group presents. **Before the session:**
 
-1. Put your slides, notebook or notes in a `sharing/` folder inside your project, numbered by session: `sharing/01-proposal.pdf`, `sharing/02-first-exploration.ipynb`.
+1. Put your slides, notebook or notes in a `sharing/` folder inside your group's folder, numbered by session: `sharing/01-proposal.pdf`, `sharing/02-first-exploration.ipynb`.
 2. Commit and push (section 7).
 3. Check that the files appear in your draft PR under **Files changed**.
 
@@ -215,7 +258,7 @@ Every 3rd week (see [upcoming-events.md](../02-events-and-activities/upcoming-ev
    ```
    git checkout main
    git pull
-   git branch -d project-sales-forecast
+   git branch -d grupo-3
    ```
 
 ---
@@ -226,8 +269,12 @@ Every 3rd week (see [upcoming-events.md](../02-events-and-activities/upcoming-ev
 |---|---|---|
 | `fatal: not a git repository` | Your terminal isn't inside the STUDENTS folder | `cd STUDENTS` (or open the folder in VS Code and use its terminal) |
 | `Repository not found` / `403` | You haven't accepted the org invitation, or weren't added | Check your email / [github.com/DataDriversUNAV](https://github.com/DataDriversUNAV), or ask the coordinator |
-| `error: pathspec 'project-...' did not match` | Git doesn't know the branch yet | Run `git fetch` first, and check the spelling |
+| `error: pathspec 'grupo-...' did not match` | Git doesn't know the branch yet | Run `git fetch` first, and check the spelling. If it still fails, your team lead hasn't pushed the branch yet |
 | `Updates were rejected because the remote contains work...` | A teammate pushed while you worked | `git pull`, then `git push` again |
+| `Your local changes ... would be overwritten by merge` | Git stopped to protect your edits. Nothing was lost | Commit your work, then `git pull` again |
+| `untracked working tree files would be overwritten` | One of your new files has the same name as one on GitHub. Nothing was lost | Rename your file, then `git pull` again |
+| `Need to specify how to reconcile divergent branches` | Git needs the setting from section 2 | Run `git config --global pull.rebase false`, then `git pull` again |
+| A strange text screen opens after `git pull` | Git is asking you to confirm a merge message | If it's a VS Code tab, close it. In the terminal, type `:wq` and press Enter |
 | `Please commit your changes or stash them before you switch branches` | You have unsaved work | Commit it first (section 7) |
 | You committed on `main` by mistake | Your work is on the wrong branch | Don't push. Ask a mentor, it's a 1-minute fix |
 | Sign-in window keeps popping up | Git needs to log in to GitHub | Sign in with the browser option. It's only asked once per computer |
@@ -237,15 +284,16 @@ Every 3rd week (see [upcoming-events.md](../02-events-and-activities/upcoming-ev
 ```
 git clone https://github.com/DataDriversUNAV/STUDENTS.git   # download the repo (once)
 git fetch                          # learn about new branches on GitHub
-git checkout project-<name>        # switch to your team branch
-git checkout -b project-<name>     # create a new branch (team lead, once)
+git checkout grupo-<number>        # switch to your group's branch
+git checkout -b grupo-<number>     # create the branch (team lead, once)
 git branch                         # which branch am I on?
 git pull                           # get teammates' latest work
+git pull origin main               # bring new session materials from main onto your branch
 git status                         # what did I change?
-git add <folder>                   # stage changes
+git add PROJECTS/Grupo_<number>    # stage changes
 git commit -m "What I did"         # save a snapshot
-git push                           # upload (first time: git push -u origin project-<name>)
+git push                           # upload (first time: git push -u origin grupo-<number>)
 ```
 
 ---
-*Last updated: 2026-10-14 · Updated by: Leo · Source: [docs.github.com](https://docs.github.com)*
+*Last updated: 2026-11-09 · Updated by: Leo · Source: [docs.github.com](https://docs.github.com)*
