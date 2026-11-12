@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-# *Análisis del estado de conservación de peces en la Lista Roja de la UICN*
+# Project: *(name)*
 
 ## Group
 
@@ -13,7 +13,7 @@ Grupo 2
 
 ## Author(s)
 
-*Nombre: Otto Reyes | GitHub: OttoReyes*
+*(Name(s) and GitHub username(s).)*
 
 ## Summary
 
