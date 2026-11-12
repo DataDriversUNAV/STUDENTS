@@ -14,7 +14,7 @@ Grupo 2
 
 ## Author(s)
 
-*Nombre: Otto Reyes | GitHub: OttoReyes.)*
+*Nombre: Otto Reyes | GitHub: OttoReyes*
 
 ## Summary
 
