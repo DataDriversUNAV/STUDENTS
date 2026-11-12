@@ -5,7 +5,8 @@
 </tr>
 </table>
 
-# Project: *Peces*
+# Project: *Análisis del estado de conservación de los peces dulceacuícolas en la Lista Roja de la UICN y 
+la validez de sus criterios de categorización*
 
 ## Group
 
@@ -13,7 +14,7 @@ Grupo 2
 
 ## Author(s)
 
-*(Name(s) and GitHub username(s).)*
+*Nombre: Otto Reyes | GitHub: OttoReyes.)*
 
 ## Summary
 
