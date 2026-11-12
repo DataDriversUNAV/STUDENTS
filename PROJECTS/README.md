@@ -15,7 +15,7 @@ This is where members submit their own work. Every member belongs to a numbered 
 | Group 2 | [`PROJECTS/Grupo_2/`](Grupo_2/) | `grupo-2` |
 | Group *N* | `PROJECTS/Grupo_N/` | `grupo-N` |
 
-The same pattern applies up to [`Grupo_10`](Grupo_10/). Project milestones for each sharing session are in [upcoming-events.md](../DOCUMENTATION/02-events-and-activities/upcoming-events.md).
+The same pattern applies up to [`Grupo_12`](Grupo_12/). Project milestones for each sharing session are in [upcoming-events.md](../DOCUMENTATION/02-events-and-activities/upcoming-events.md).
 
 ## How to submit a project
 

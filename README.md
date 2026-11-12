@@ -20,7 +20,7 @@ Admin/governance material (cronogram, marketing, partnerships, meeting notes) ha
 - **`DOCUMENTATION/01-getting-started/`** — install Git, Python, VS Code, learn GitHub basics, and the step-by-step guide to group projects.
 - **`DOCUMENTATION/02-events-and-activities/`** — the full-year calendar, plus how the numbered groups and attendance work.
 - **`DOCUMENTATION/03-session material/`** — slides and handouts from each session.
-- **`PROJECTS/`** — where you submit your work via pull request, with one folder per group (`Grupo_1/` to `Grupo_10/`).
+- **`PROJECTS/`** — where you submit your work via pull request, with one folder per group (`Grupo_1/` to `Grupo_12/`).
 
 ## Quick links
 
