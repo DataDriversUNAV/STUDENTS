@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-# Project: *(name)*
+# Project: *Procesamiento y Análisis de Datos Genómicos en Investigación Biomédica*
 
 ## Group
 
@@ -13,7 +13,8 @@ Grupo 1
 
 ## Author(s)
 
-*(Name(s) and GitHub username(s).)*
+-Name: Omar Vasquez
+-GitHub username: omavas20
 
 ## Summary
 
