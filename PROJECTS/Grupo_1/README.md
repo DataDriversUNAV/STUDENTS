@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-# Project: *(name)*
+# Project: *Procesamiento y Análisis de Datos Genómicos mediante Herramientas Bioinformáticas y Métodos de Genética Estadística para la Investigación Biomédica*
 
 ## Group
 
@@ -13,34 +13,38 @@ Grupo 1
 
 ## Author(s)
 
-*(Name(s) and GitHub username(s).)*
+*Omar E. Vásquez-Pérez — GitHub: @omavas20*
 
 ## Summary
 
-*(1-3 sentences: what does this project do / what question does it answer?)*
+*Este proyecto tiene como objetivo realizar la limpieza, el procesamiento y el análisis de datos genéticos y genómicos mediante herramientas bioinformáticas y métodos de genética estadística. Se busca identificar patrones y posibles asociaciones entre variantes genéticas y una enfermedad de interés, explorando cómo estas herramientas pueden contribuir a la investigación biomédica y a una mejor comprensión de sus bases genéticas.*
 
 ## Data
 
-*(Source of the data — link if external, or note it's included in this folder.)*
+*Los datos utilizados en este proyecto provendrán de bases de datos genéticos y genómicos de acceso público, relacionadas con una enfermedad de interés.
+
+Fuente de datos: Pendiente de seleccionar.*
 
 ## How to run
 
 ```
-(e.g. pip install -r requirements.txt
-      jupyter notebook notebook.ipynb)
+Las instrucciones de instalación y ejecución se incorporarán conforme se desarrollen los análisis bioinformáticos.
+
 ```
 
 ## Key findings
 
-*(What did you learn / conclude?)*
+*Pendiente de completar una vez realizados los análisis y obtenidos los resultados.*
 
 ## Tools used
 
-*(Python, pandas, scikit-learn, etc.)*
+- Python (pandas y NumPy)
+- R
+- Git y GitHub 
 
 ## Status
 
-*(In progress / Complete / Presented on: date)*
+*In progress*
 
 ---
 *Submitted: — · Reviewed by: —*
