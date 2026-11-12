@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-# *Análisis del estado de conservación de los peces dulceacuícolas en la Lista Roja de la UICN y la validez de sus criterios de categorización*
+# *Análisis del estado de conservación de peces en la Lista Roja de la UICN*
 
 ## Group
 
