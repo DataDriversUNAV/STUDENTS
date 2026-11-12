@@ -13,8 +13,7 @@ Grupo 1
 
 ## Author(s)
 
--Name: Omar Vasquez
--GitHub username: omavas20
+Name: Omar Vasquez |GitHub username: omavas20
 
 ## Summary
 
